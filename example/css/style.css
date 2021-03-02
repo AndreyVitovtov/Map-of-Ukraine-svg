@@ -1,0 +1,30 @@
+#map {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.title {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    background-color: #fff;
+    border: solid 1px #000;
+    border-radius: 2px;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,0.45);
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cls-1 {
+    fill: #3eb5f1;
+    stroke: #201600;
+    stroke-miterlimit: 10;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.region:hover .cls-1 {
+    fill: #ffffff!important;
+    transition: 0.2s;
+}
